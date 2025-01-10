@@ -1,19 +1,27 @@
-12/H
-**Hirdetés**
+
+__Hirdetés__
 
 - __[Jófogás](https://jofogas.hu/)__ - Magyarország legnagyobb online apróhirdetési oldala.
 - __[HardverApró](https://harverapro.hu/)__ - Itt megtalálod, amit keresel!
 
 
+---
+
 # h1 fejezet 
-## h2 fejezet h2
-### h3 fejezet h3
-#### h4 fejezet h4
-##### h5 fejezet h5
-###### h6 fejezet h6
+## h2 fejezet
+### h3 fejezet
+#### h4 fejezet
+##### h5 fejezet
+###### h6 fejezet
 
 
 ## Vízszintes vonalak
+
+___
+
+---
+
+***
 
 
 ## Hangsúlyozás
@@ -32,105 +40,105 @@ _Dőlt másként_
 ## Blokkok
 
 
->Első idézet...
+> Első idézet...
 >> Bágyazott blokk
->>> További beágyazott blokk
+> > > További beágyazott blokk
 
 
 ## Listák
 
 Felsorolás
 
-+ Hozzon létre egy listát úgy, hogy egy sort kezd ezzel +, -, vagy *
++ Hozzon létre egy listát úgy, hogy egy sort kezd ezzel `+`, `-`, vagy `*`
 + A részlisták 2 szóköz behúzásával készülnek:
-    A felsorolásjel karakterének megváltoztatása új lista indítását jelenti:
-    + Alma
-        + Piros alma
-    + Narancs
-További elem
+  - A felsorolásjel karakterének megváltoztatása új lista indítását jelenti:
+    * Alma
+      - Piros alma
+    - Narancs
++ További elem
 
 Számozás
 
-Hétfő
-Kedd
-Szerda
+1. Hétfő
+2. Kedd
+3. Szerda
 
 
 
 Számozás indítása más kezdettel:
 
-Vasárnap
-Hétfő
+100. Vasárnap
+1. Hétfő
 
 
-Kód
+## Kód
 
-Soron belül code
+Soron belül `code`
 
 Behúzott kód
 
-Néhány megjegyzés
-Gyakorlás
-Gyakorlás
-Gyakorlás
+    // Néhány megjegyzés
+    Gyakorlás
+    Gyakorlás
+    Gyakorlás
 
 
 Blokk kód
 
-
+```
 Egyszerű szöveg...
-
+```
 
 Szintaxis kiemelés
 
-
+``` python
 for i in range(10):
     print("Hello")
 print("Vége")
+```
 
+## Táblázat
 
-Táblázat
-
-Gyümölcs Mennyiség
-
-alma 10 kg
-körte 20 kg
-banán 30 kg
+| Gyümölcs | Mennyiség |
+| ------ | ----------- |
+| alma | 10 kg |
+| körte | 20 kg |
+| banán | 30 kg |
 
 Jobbra igazított táblázat
 
-Gyümölcs Mennyiség
-alma 10 kg
-körte 20 kg
-banán 30 kg
+| Gyümölcs | Mennyiség |
+| ------: | -----------: |
+| alma | 10 kg |
+| körte | 20 kg |
+| banán | 30 kg |
 
 
-Linkek
+## Linkek
 
-Aqua http://aqua.hu
++ [Aqua](http://aqua.hu)
 
-Media Markt http://mediamarkt.hu/ MediaMarkt Magyarország
++ [Media Markt](http://mediamarkt.hu/ "MediaMarkt Magyarország")
 
-Automatikus link https://arpadszki.hu
-
-
-Képek
-
-Minion https://octodex.github.com/images/minion.png
-Stormtroopocat  https://octodex.github.com/images/stormtroopocat.jpg The Stormtroopocat
++ Automatikus link https://arpadszki.hu
 
 
-Emoji https://github.com/markdown-it/markdown-it-emoji
+## Képek
 
-Jelek:
+![Minion](https://octodex.github.com/images/minion.png)
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
 
 
-Lábjegyzet https://github.com/markdown-it/markdown-it-footnote
-Forgalomirányító protokollok:  a
-RIP
-OSPF
+### [Emoji](https://github.com/markdown-it/markdown-it-emoji)
 
-Routing Information Protocol
+> Jelek: :wink: :cry: :laughing: :yum:
 
-Open Shortest Path First
 
+### [Lábjegyzet](https://github.com/markdown-it/markdown-it-footnote)
+Forgalomirányító protokollok:  
+- RIP[^elso].
+- OSPF[^second].
+
+[^elso]: **Routing Information Protocol**
+
+[^second]: **Open Shortest Path First**
